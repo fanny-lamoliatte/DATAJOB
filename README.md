@@ -12,9 +12,15 @@ Souhaitant me reconvertir dans le domaine de la data, il m’a semblé naturel d
 
 L’objectif de ce projet est de comprendre, à l’aide des données, les différents profils techniques qui composent aujourd’hui l’industrie de la Data. Plus précisément, il s’agit de mener une analyse approfondie des tâches réalisées ainsi que des outils utilisés pour chaque poste, dans le but d’identifier des ensembles de compétences et de technologies propres à chaque fonction.
 
-Cette étude a une finalité double : dans un premier temps, cartographier les métiers de la Data afin d’en saisir la diversité et la spécificité ; dans un second temps, construire un système de recommandation capable de suggérer, à un apprenant ou une personne en reconversion, le poste le plus en adéquation avec ses préférences et ses compétences.
+Cette étude a aisni une double finalité  : dans un premier temps, cartographier les métiers de la Data afin d’en saisir la diversité et la spécificité ; dans un second temps, construire un système de recommandation capable de suggérer, à un apprenant ou une personne en reconversion, le poste le plus en adéquation avec ses préférences et ses compétences.
 
-Pour cela, nous nous sommes appuyés sur les données issues des sondages Kaggle, une référence dans le domaine. Ce rapport m’a ainsi permis d’explorer de manière plus concrète et technique un secteur qui m’attire particulièrement, et d’en appréhender la richesse et les perspectives.
+Pour cela, nous nous sommes appuyés sur les données issues de sondages Kaggle, en nous concentrant sur 4 métiers spécifiques:
+- Data Anaalyst
+- Data Scientits
+- SOfware Engineer
+- Research Scientits
+
+Ce rapport m’a ainsi permis d’explorer de manière plus concrète et technique un secteur qui m’attire particulièrement, et d’en appréhender la richesse et les perspectives.
 
 Lors du travail initial en groupe, notre modèle prédictif avait atteint une accuracy de 0,42 — un score encore perfectible. J’ai ensuite repris ce projet en autonomie afin de le consolider : ajout des sondages Kaggle de 2018 et 2019, refonte des variables utilisées, enrichissement de la sélection des données… Ces optimisations m’ont permis d’accroître significativement la performance du modèle.
 <br>
@@ -38,7 +44,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
   [https://www.kaggle.com/datasets/allyloreno/kagglesurvey2020?select=2020_kaggle_ds_and_ml_survey_responses_only.csv](https://www.kaggle.com/datasets/allyloreno/kagglesurvey2020?select=2020_kaggle_ds_and_ml_survey_responses_only.csv)
 
 - **Enquête Kaggle 2021** :  
-  [https://www.kaggle.com/datasets/shivijaiswal/kaggle-survey-2021](https://www.kaggle.com/datasets/shivijaiswal/kaggle-survey-2021)
+  [https://www.kaggle.com/datasets/dhirajkumar612/kagglesurvey2021responses)
 
 - **Enquête Kaggle 2022** :  
   [https://www.kaggle.com/datasets/monikagarg02/kaggle-survey-2022-responses](https://www.kaggle.com/datasets/monikagarg02/kaggle-survey-2022-responses)
@@ -173,3 +179,33 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
       </td>
    </tr>        
 </table>
+<br>
+<br>
+<br>
+
+
+## <ins> METHODOLOGIE </ins> ##
+
+- <ins>**Collection des données sur le site Kaggle**</ins>
+  - Enquête 2018 ***42.56 MB***
+  - Enquête 2019 ***22.21 MB*** chacune
+  - Enquête 2020 ***25.48 MB***
+  - Enquête 2021 ***35.2 MB***
+  - Enquête 2022 ***25.93 MBo***
+<br>
+
+- <ins>**Data cleaning général sur GoogleColab**</ins>
+  - Les datasets ont été nettoyés séparement, puis fusionnés
+  - Gestion des colonnes, des modalités (renommer, uniformiser, modifications des types de données ...)
+  - Suppressions des données non pertinentes à l’étude, les étudiants ainsi que les chômeurs 
+  - Filtration 
+  - Téléchargement des datasets sur Power BI
+<br>
+
+- <ins>**Data cleaning approfondi sur Power BI**</ins>
+  - Uniformisations des noms de colonnes, des types, des données numériques
+  - Création de tables de fait FACT, afin de lier les différentes tables entre elles
+  - Création de visuels (cartes géographiques interractives, treemap, pie charts, …)
+  - Mise en place de liens hypertextes, offres d'emploi, présentation des entreprises
+  - Création de filtrations dynamiques, de widgets ...
+ <br> 
