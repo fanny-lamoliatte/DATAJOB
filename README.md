@@ -29,7 +29,8 @@ Pour cela, nous nous sommes appuyés sur les données issues de **sondages Kaggl
 - Research Scientits
 <br>
 
-Lors du travail initial en groupe, notre modèle prédictif avait atteint une accuracy de 0,42 — un score encore perfectible. **J’ai repris le projet en le consolidant**, notamment par ***l’ajout des sondages de 2018 et 2019*** et en ***affinant la sélection des variables***, ce qui m'a permis d'en ***accroitre les performances.***
+Lors du travail initial en groupe, notre modèle prédictif avait atteint une accuracy de 0,42, un score améliorable.
+**J’ai repris le projet en le consolidant**, notamment par ***l’ajout des sondages de 2018 et 2019*** et en ***affinant la sélection des variables***, ce qui m'a permis d'en ***accroitre les performances.***
 <br>
 <br>
 <br>
