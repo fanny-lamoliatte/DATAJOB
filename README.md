@@ -23,14 +23,11 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 ## <ins> PRESENTATION DES DONNEES </ins> ##
 
-[2018] https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv
+2018 https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv
+2019 https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv
+2020 https://www.kaggle.com/datasets/allyloreno/kagglesurvey2020?select=2020_kaggle_ds_and_ml_survey_responses_only.csv
+2021 https://www.kaggle.com/datasets/shivijaiswal/kaggle-survey-2021
+2022 https://www.kaggle.com/datasets/monikagarg02/kaggle-survey-2022-responses
 
 
 
-
-
-<a href="2018"><img src="[https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv]" width="150"/></a>
-<a href="2019"><img src="[URL_image](https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv)" width="150"/></a>
-<a href="2020"><img src="[URL_image](https://www.kaggle.com/datasets/allyloreno/kagglesurvey2020?select=2020_kaggle_ds_and_ml_survey_responses_only.csv)" width="150"/></a>   
-<a href="2021"><img src="[URL_image](https://www.kaggle.com/datasets/shivijaiswal/kaggle-survey-2021)" width="150"/></a>
-<a href="2022"><img src="[URL_image](https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv)" width="150"/></a>
