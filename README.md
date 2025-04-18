@@ -92,7 +92,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
               <li>SQL</li>
               <li>DJava</li>
               <li>R</li>
-              <li>JC</li>
+              <li>C</li>
           </ul>
       </td>
       <td>
