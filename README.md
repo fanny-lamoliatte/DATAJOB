@@ -96,12 +96,12 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
           </ul>
       </td>
       <td>
-          <p> <ins>Notebooks<ins></p>
+          <p> <ins>Notebooks<ins></p> 
           <ul>
-              <li>18 à 29 ans</li>
-              <li>30 à 44 ans</li>
-              <li>15 à 99 ans</li>
-              <li>+ 60 ans</li>
+              <li>Kaggle</li>
+              </li>GoogleColab</li>
+              <li>Jupyter</li>
+              <li>Azure</li>
           </ul>
       </td>
       <td>
@@ -115,8 +115,10 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
       <td>
           <p> <ins>Logiciels de reportings<ins></p>
           <ul>
-              <li>Male</li>
-              <li>Female</li>
+              <li>Matplotlib</li>
+              <li>Seaborn</li>
+              <li>Plotly</li>
+              <li>Ggplot</li>
           </ul>
       </td>
    </tr>        
