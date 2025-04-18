@@ -17,8 +17,14 @@ Cette étude a une finalité double : dans un premier temps, cartographier les m
 Pour cela, nous nous sommes appuyés sur les données issues des sondages Kaggle, une référence dans le domaine. Ce rapport m’a ainsi permis d’explorer de manière plus concrète et technique un secteur qui m’attire particulièrement, et d’en appréhender la richesse et les perspectives.
 
 Lors du travail initial en groupe, notre modèle prédictif avait atteint une accuracy de 0,42 — un score encore perfectible. J’ai ensuite repris ce projet en autonomie afin de le consolider : ajout des sondages Kaggle de 2018 et 2019, refonte des variables utilisées, enrichissement de la sélection des données… Ces optimisations m’ont permis d’accroître significativement la performance du modèle.
+br
 
 
+## <ins> PRESENTATION DES DONNEES </ins> ##
 
+### **<ins>Datasets</ins>**
+<p align="left">
+   <img align="center" width="30%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/logo_kaggle.png" />
+</p>
+<br>
 
-### **<ins>Etablissement du profil de la Manche selon :</ins>**
