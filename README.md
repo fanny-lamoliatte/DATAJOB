@@ -64,7 +64,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
           </ul>
       </td>
       <td>
-          <p> <ins>Ages<ins></p>
+          <p> <ins>Tranches d'age<ins></p>
           <ul>
               <li>18 à 29 ans</li>
               <li>30 à 44 ans</li>
@@ -132,7 +132,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
       </td>
    </tr>              
 </table>
-<p><strong><em>Langages de programmation en plus de Python</em></strong></p>
+<p><strong><em>Langages de programmation en plus de Python, langage de base en programmations</em></strong></p>
 <br>
              
 <table>
