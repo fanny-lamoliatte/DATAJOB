@@ -14,7 +14,7 @@ L’objectif de ce projet est de comprendre, à l’aide des données, les diff�
 
 Cette étude a une finalité double : dans un premier temps, cartographier les métiers de la Data afin d’en saisir la diversité et la spécificité ; dans un second temps, construire un système de recommandation capable de suggérer, à un apprenant ou une personne en reconversion, le poste le plus en adéquation avec ses préférences et ses compétences.
 
-Pour cela, j’ai choisi de m’appuyer sur les données issues des sondages Kaggle, une référence dans le domaine. Ce rapport m’a ainsi permis d’explorer de manière plus concrète et technique un secteur qui m’attire particulièrement, et d’en appréhender la richesse et les perspectives.
+Pour cela, nous nous sommes appuyés sur les données issues des sondages Kaggle, une référence dans le domaine. Ce rapport m’a ainsi permis d’explorer de manière plus concrète et technique un secteur qui m’attire particulièrement, et d’en appréhender la richesse et les perspectives.
 
 Lors du travail initial en groupe, notre modèle prédictif avait atteint une accuracy de 0,42 — un score encore perfectible. J’ai ensuite repris ce projet en autonomie afin de le consolider : ajout des sondages Kaggle de 2018 et 2019, refonte des variables utilisées, enrichissement de la sélection des données… Ces optimisations m’ont permis d’accroître significativement la performance du modèle.
 
