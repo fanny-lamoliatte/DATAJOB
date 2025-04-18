@@ -12,7 +12,9 @@ Souhaitant me reconvertir dans le domaine de la data, il m’a semblé naturel d
 
 L’objectif de ce projet est de comprendre, à l’aide des données, les différents profils techniques qui composent aujourd’hui l’industrie de la Data. Plus précisément, il s’agit de mener une **analyse approfondie des tâches réalisées ainsi que des outils utilisés pour chaque poste, dans le but d’identifier des ensembles de compétences et de technologies propres à chaque fonction.**
 
-Cette étude a ainsi une **double finalité**  : dans un premier temps, ***cartographier les métiers de la Data*** afin d’en saisir la diversité et la spécificité ; puis de, ***construire un système de recommandation*** capable de suggérer, à un apprenant ou une personne en reconversion, le poste le plus en adéquation avec ses préférences et ses compétences.
+Cette étude a ainsi une **double finalité** : 
+- ***cartographier les métiers de la Data*** afin d’en saisir la diversité et la spécificité, présenté sous la forme d'un rapport Power BI
+- ***construire un système de recommandation*** capable de suggérer, à un apprenant ou une personne en reconversion, le poste le plus en adéquation avec ses préférences et ses compétences, à travers la mise en place d'une application Streamlit.
 
 Pour cela, nous nous sommes appuyés sur les données issues de **sondages Kaggle**, en nous concentrant sur 4 métiers spécifiques:
 - Data Analyst
