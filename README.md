@@ -24,7 +24,7 @@ br
 
 ### **<ins>Datasets</ins>**
 <p align="left">
-   <img align="center" width="30%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/logo_kaggle.png" />
+   <img align="center" width="30%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/logo_kaggle.PNG" />
 </p>
 <br>
 
