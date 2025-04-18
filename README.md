@@ -87,12 +87,12 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 <table>
    <tr> 
       <td>
-          <p> <insLangages de programmation<ins></p>
+          <p> <ins></ins>Langages de programmation<ins></p>
           <ul>
-              <li>Data Analyst</li>
-              <li>Data Scientist</li>
-              <li>Software Engineer</li>
-              <li>JResearch Scientist</li>
+              <li>SQL</li>
+              <li>DJava</li>
+              <li>R</li>
+              <li>JC</li>
           </ul>
       </td>
       <td>
@@ -121,4 +121,5 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
       </td>
    </tr>        
 </table>
+***Langages de programmation en plus de Python***
 
