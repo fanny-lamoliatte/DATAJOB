@@ -121,5 +121,5 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
       </td>
    </tr>        
 </table>
-***Langages de programmation en plus de Python***
+**Langages de programmation en plus de Python**
 
