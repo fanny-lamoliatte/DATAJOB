@@ -28,6 +28,12 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
    <img align="center" width="8%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/logo_kaggle.PNG" />
 </p>
 
+<h3><ins>Datasets</ins>
+  <img src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/logo_kaggle.PNG?raw=true" width="30" style="vertical-align: middle; margin-left: 10px;" />
+</h3>
+
+
+
 - **Enquête Kaggle 2018** :  
   [https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv](https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv)
 
