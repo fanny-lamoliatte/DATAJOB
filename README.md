@@ -91,13 +91,15 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 </table>
 <br>
 
+
+
 <table>
    <tr> 
       <td>
           <p> <ins>Langages de programmation<ins></p>
           <ul>
               <li>SQL</li>
-              <li>DJava</li>
+              <li>Java</li>
               <li>R</li>
               <li>C</li>
           </ul>
@@ -139,7 +141,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
           <p> <ins>Algorithmes de Machine Learning<ins></p>
           <ul>
               <li>Méthodes de régression</li>
-              <li>Méthodes de clqassification</li>
+              <li>Méthodes de classification</li>
               <li>Arbres/Forêts de décisions</li>
               <li>Réseaux Neuronaux</li>
               <li>Gradient Boosting</li>
