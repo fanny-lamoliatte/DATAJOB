@@ -87,7 +87,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 <table>
    <tr> 
       <td>
-          <p> <ins></ins>Langages de programmation<ins></p>
+          <p> <ins>Langages de programmation<ins></p>
           <ul>
               <li>SQL</li>
               <li>DJava</li>
