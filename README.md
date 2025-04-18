@@ -41,7 +41,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 - **Enquête Kaggle 2022** :  
   [https://www.kaggle.com/datasets/monikagarg02/kaggle-survey-2022-responses](https://www.kaggle.com/datasets/monikagarg02/kaggle-survey-2022-responses)
-
+<br>
 
 ### **<ins>Présentation des variables**
 
