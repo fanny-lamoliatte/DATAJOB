@@ -24,7 +24,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 ## <ins> PRESENTATION DES DONNEES </ins> ##
 
 <h3><ins>Datasets</ins>
-  <img src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/logo_kaggle.PNG?raw=true" width="30" style="vertical-align: middle; margin-left: 20px;" />
+  <img src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/logo_kaggle.PNG?raw=true" width="30" style="vertical-align: middle; margin-left: 40px;" />
 </h3>
 
 
