@@ -27,8 +27,6 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
   <img src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/logo_kaggle.PNG?raw=true" width="60" style="vertical-align: middle; margin-left: 10px;" />
 </h3>
 
-
-
 - **Enquête Kaggle 2018** :  
   [https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv](https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv)
 
@@ -45,7 +43,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
   [https://www.kaggle.com/datasets/monikagarg02/kaggle-survey-2022-responses](https://www.kaggle.com/datasets/monikagarg02/kaggle-survey-2022-responses)
 
 
-2022 https://www.kaggle.com/datasets/monikagarg02/kaggle-survey-2022-responses
+### **<ins>Présentation des variables**
 
 
 
