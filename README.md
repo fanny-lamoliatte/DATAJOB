@@ -17,7 +17,7 @@ Cette étude a aisni une **double finalité**  : dans un premier temps, ***carto
 Pour cela, nous nous sommes appuyés sur les données issues de **sondages Kaggle**, en nous concentrant sur 4 métiers spécifiques:
 - Data Anaalyst
 - Data Scientits
-- SOfware Engineer
+- Sofware Engineer
 - Research Scientits
 
 Ce rapport m’a ainsi permis d’explorer de manière plus concrète et technique un secteur qui m’attire particulièrement, et d’en appréhender la richesse et les perspectives.
@@ -143,18 +143,17 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
               <li>Arbres/Forêts de décisions</li>
               <li>Réseaux Neuronaux</li>
               <li>Gradient Boosting</li>
-              <li>C</li>
           </ul>
       </td>
       <td>
           <p> <ins>Plateformse de ML automatisé</ins><ins></p> 
           <ul>
               <li>GoogleCLoud</li>
-              </li>DataRobot</li>
+              </li>Datarobot</li>
               <li>Sagemaker</li>
               <li>Azure</li>
               <li>H2O</li>
-              <li>DataBriks</li>
+              <li>Databriks</li>
           </ul>
       </td>
       <td>
