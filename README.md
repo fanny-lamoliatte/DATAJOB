@@ -65,4 +65,20 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
               <li>+ 60 ans</li>
           </ul>
       </td>
-
+      <td>
+          <p> <ins>Niveaux de formation<ins></p>
+          <ul>
+              <li>Bachelor</li>
+              <li>Master</li>
+              <li>Doctoral</li>
+          </ul>
+      </td>
+      <td>
+          <p> <ins>Sexes<ins></p>
+          <ul>
+              <li>Male</li>
+              <li>Female</li>
+          </ul>
+      </td>
+   </tr>        
+</table>
