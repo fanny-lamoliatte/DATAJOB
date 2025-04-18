@@ -121,7 +121,54 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
               <li>Ggplot</li>
           </ul>
       </td>
-   </tr>        
+   </tr>              
 </table>
 <p><strong><em>Langages de programmation en plus de Python</em></strong></p>
-
+<br>
+             
+<table>
+   <tr> 
+      <td>
+          <p> <ins>Algorithmes de Machine Learning<ins></p>
+          <ul>
+              <li>Méthodes de régression</li>
+              <li>Méthodes de clqassification</li>
+              <li>Arbres/Forêts de décisions</li>
+              <li>Réseaux Neuronaux</li>
+              <li>Gradient Boosting</li>
+              <li>C</li>
+          </ul>
+      </td>
+      <td>
+          <p> <ins>Plateformse de ML automatisé</ins><ins></p> 
+          <ul>
+              <li>GoogleCLoud</li>
+              </li>DataRobot</li>
+              <li>Sagemaker</li>
+              <li>Azure</li>
+              <li>H2O</li>
+              <li>DataBriks</li>
+          </ul>
+      </td>
+      <td>
+          <p> <ins>Environnements de développement<ins></p>
+          <ul>
+              <li>Jupyter</li>
+              <li>RStudio</li>
+              <li>VSCode</li>
+              <li>PyCharm</li>
+              <li>SublimText</li>
+          </ul>
+      </td>
+      <td>
+          <p> <ins>Outils d'analyse visuelle<ins></p>
+          <ul>
+              <li>Classification d'images</li>
+              <li>Segmentation d'images</li>
+              <li>Détection d'objets</li>
+              <li>Images vidéo</li>
+              <li>Réseaux neuronaux</li>
+          </ul>
+      </td>
+   </tr>        
+</table>
