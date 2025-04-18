@@ -87,7 +87,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 <table>
    <tr> 
       <td>
-          <p> <ins>Postes occupés<ins></p>
+          <p> <insLangages de programmation<ins></p>
           <ul>
               <li>Data Analyst</li>
               <li>Data Scientist</li>
@@ -96,7 +96,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
           </ul>
       </td>
       <td>
-          <p> <ins>Ages<ins></p>
+          <p> <ins>Notebooks<ins></p>
           <ul>
               <li>18 à 29 ans</li>
               <li>30 à 44 ans</li>
@@ -105,7 +105,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
           </ul>
       </td>
       <td>
-          <p> <ins>Niveaux de formation<ins></p>
+          <p> <ins>Librairies de visualisations<ins></p>
           <ul>
               <li>Bachelor</li>
               <li>Master</li>
@@ -113,7 +113,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
           </ul>
       </td>
       <td>
-          <p> <ins>Sexes<ins></p>
+          <p> <ins>Logiciels de reportings<ins></p>
           <ul>
               <li>Male</li>
               <li>Female</li>
