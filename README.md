@@ -29,6 +29,24 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 </p>
 <br>
 
+
+- **Enquête Kaggle 2018** :  
+  [https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv](https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv)
+
+- **Enquête Kaggle 2019** :  
+  [https://www.kaggle.com/datasets/paultimothymooney/public-dataset-for-2019-kaggle-survey-data](https://www.kaggle.com/datasets/paultimothymooney/public-dataset-for-2019-kaggle-survey-data)
+
+- **Enquête Kaggle 2020** :  
+  [https://www.kaggle.com/datasets/allyloreno/kagglesurvey2020?select=2020_kaggle_ds_and_ml_survey_responses_only.csv](https://www.kaggle.com/datasets/allyloreno/kagglesurvey2020?select=2020_kaggle_ds_and_ml_survey_responses_only.csv)
+
+- **Enquête Kaggle 2021** :  
+  [https://www.kaggle.com/datasets/shivijaiswal/kaggle-survey-2021](https://www.kaggle.com/datasets/shivijaiswal/kaggle-survey-2021)
+
+- **Enquête Kaggle 2022** :  
+  [https://www.kaggle.com/datasets/monikagarg02/kaggle-survey-2022-responses](https://www.kaggle.com/datasets/monikagarg02/kaggle-survey-2022-responses)
+
+
+
 ***2018*** https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv)
 2019 https://www.kaggle.com/datasets/paultimothymooney/public-dataset-for-2019-kaggle-survey-data
 2020 https://www.kaggle.com/datasets/allyloreno/kagglesurvey2020?select=2020_kaggle_ds_and_ml_survey_responses_only.csv
