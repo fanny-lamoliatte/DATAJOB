@@ -15,7 +15,7 @@ La réalisation de ce rapport m’a ainsi permis d’explorer de manière plus c
 <br>
 <br>
 
-L’objectif de ce projet est de comprendre, à l’aide des données, les différents profils techniques qui composent aujourd’hui l’industrie de la Data. Plus précisément, il s’agit de mener une **analyse approfondie des tâches réalisées ainsi que des outils utilisés pour chaque poste, dans le but d’identifier des ensembles de compétences et de technologies propres à chaque fonction.**
+L’objectif consiste à comprendre, à l’aide des données, les différents profils techniques qui composent aujourd’hui l’industrie de la Data. Plus précisément, il s’agit de mener une **analyse approfondie des tâches réalisées ainsi que des outils utilisés pour chaque poste, dans le but d’identifier des ensembles de compétences et de technologies propres à chaque fonction.**
 
 Cette étude a ainsi une **double finalité** : 
 - ***cartographier les métiers de la Data*** afin d’en saisir la diversité et la spécificité, présenté sous la forme d'un rapport Power BI
