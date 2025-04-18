@@ -132,7 +132,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
       </td>
    </tr>              
 </table>
-<p><strong><em>Langages de programmation en plus de Python, langage de base en programmations</em></strong></p>
+<p><strong><em>Langages en plus de Python (langage de base en programmation)</em></strong></p>
 <br>
              
 <table>
