@@ -108,7 +108,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
           <p> <ins>Notebooks<ins></p> 
           <ul>
               <li>Kaggle</li>
-              </li>GoogleColab</li>
+              <li>GoogleColab</li>
               <li>Jupyter</li>
               <li>Azure</li>
           </ul>
