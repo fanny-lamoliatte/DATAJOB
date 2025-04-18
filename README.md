@@ -8,7 +8,7 @@
 ## <ins> CONTEXT ET OBJECTIF </ins> ##
 Dans le cadre de ma formation de Data Analyst (promotion 2024), un projet collaboratif nous a été proposé.
 
-Souhaitant me reconvertir dans le domaine de la data, il m’a semblé naturel de m’orienter vers un sujet qui me tient particulièrement à cœur : **l’analyse et le profilage des métiers du secteur de la data science.**
+Souhaitant me reconvertir dans le domaine de la data, il m’a semblé naturel de m’orienter vers un sujet qui me tient particulièrement à cœur : **l’analyse et le profilage des métiers de la data science.**
 
 L’objectif de ce projet est de comprendre, à l’aide des données, les différents profils techniques qui composent aujourd’hui l’industrie de la Data. Plus précisément, il s’agit de mener une **analyse approfondie des tâches réalisées ainsi que des outils utilisés pour chaque poste, dans le but d’identifier des ensembles de compétences et de technologies propres à chaque fonction.**
 
@@ -22,7 +22,7 @@ Pour cela, nous nous sommes appuyés sur les données issues de **sondages Kaggl
 
 Ce rapport m’a ainsi permis d’explorer de manière plus concrète et technique ce secteur d’activité, et d’en apprécier toute la richesse ainsi que les perspectives qu’il offre.
 
-Lors du travail initial en groupe, notre modèle prédictif avait atteint une accuracy de 0,42 — un score encore perfectible. **J’ai repris le projet en le consolidant**, notamment par ***l’ajout des sondages de 2018 et 2019***, en ***affinant la sélection des variables***, ce qui m'a permis d'en ***accroitre les performances.***
+Lors du travail initial en groupe, notre modèle prédictif avait atteint une accuracy de 0,42 — un score encore perfectible. **J’ai repris le projet en le consolidant**, notamment par ***l’ajout des sondages de 2018 et 2019*** et en ***affinant la sélection des variables***, ce qui m'a permis d'en ***accroitre les performances.***
 <br>
 <br>
 <br>
