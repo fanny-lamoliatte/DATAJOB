@@ -29,7 +29,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 </p>
 <br>
 
-2018 (https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv)/
+**2018** https://www.kaggle.com/datasets/kaggle/kaggle-survey-2018?select=multipleChoiceResponses.csv)
 2019 https://www.kaggle.com/datasets/paultimothymooney/public-dataset-for-2019-kaggle-survey-data
 2020 https://www.kaggle.com/datasets/allyloreno/kagglesurvey2020?select=2020_kaggle_ds_and_ml_survey_responses_only.csv
 2021 https://www.kaggle.com/datasets/shivijaiswal/kaggle-survey-2021
