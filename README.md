@@ -82,7 +82,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
       </td>
    </tr>        
 </table>
-
+<br>
 
 <table>
    <tr> 
