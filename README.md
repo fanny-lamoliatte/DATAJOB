@@ -5,7 +5,7 @@
 <br>
 <br>
 
-## <ins> CONTEXT ET OBJECTIF </ins> ##
+## <ins> CONTEXT </ins> ##
 <br>
 Dans le cadre de ma formation de Data Analyst (promotion 2024), un projet collaboratif nous a été proposé.
 
@@ -15,6 +15,8 @@ La réalisation de ce rapport m’a ainsi permis d’explorer de manière plus c
 <br>
 <br>
 
+
+## <ins> OBJECTIF </ins> ##
 L’objectif consiste à comprendre, à l’aide des données, les différents profils techniques qui composent aujourd’hui l’industrie de la Data. Plus précisément, il s’agit de mener une **analyse approfondie** des ***tâches réalisées*** ainsi que des ***outils utilisés*** pour chaque poste, dans le but d’identifier des ensembles de compétences et de technologies propres à chaque fonction.
 <br>
 
