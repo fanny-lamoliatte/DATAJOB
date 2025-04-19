@@ -196,7 +196,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 ## <ins> METHODOLOGIE </ins> ##
 
-- <ins>**Collection des données sur le site Kaggle**</ins>
+- <ins>**Collecte des données sur le site Kaggle**</ins>
   - Enquête 2018 ***42.56 MB***
   - Enquête 2019 ***22.21 MB*** chacune
   - Enquête 2020 ***25.48 MB***
