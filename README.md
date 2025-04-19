@@ -195,7 +195,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 ### **<ins>Visuel du dataset nettoyé</ins>**
 
 <p align="center">
-   <img align="center" width="80%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/Screen%20visuel%20dataset%20nettoy%C3%A9.PNG" />
+   <img align="center" width="150%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/Screen%20visuel%20dataset%20nettoy%C3%A9.PNG" />
 </p>
 <br>
 <br>
