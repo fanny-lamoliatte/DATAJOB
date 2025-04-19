@@ -215,18 +215,18 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 - <ins>**Data cleaning général sur GoogleColab**</ins>
   - Les datasets ont été nettoyés séparement, puis fusionnés
   - Restriction du nombre de colonnes (350) de moitié par choix des compétences ciblées préalablement
-  - Gestion des colonnes, des modalités (renommer, uniformiser, modifications des types ...)
+  - Gestion des colonnes, des modalités (renommer, uniformiser, modifications des types, données numériques ...)
   - Filtration sur les 4 métiers qui nous interessent
   - Suppression des données non pertinentes à l’étude, les étudiants ainsi que les chômeurs
   - Regroupement des modalités, notamment sur la variable "Age" (de 11 à 4 valeurs)
-  - Conception de visuels tests pour sélectionner les plus efficaces
+  - Normalisation des données en vue de l'étude prédictive qui va suivre
+  - Conception de visuels tests pour sélectionner les plus efficaces 
   - Téléchargement des datasets sur Power BI
 <br>
 
 - <ins>**Data cleaning approfondi sur Power BI**</ins>
-  - Uniformisations des noms de colonnes, des types, des données numériques
-  - Création de tables de fait FACT, afin de lier les différentes tables entre elles
-  - Création de visuels (cartes géographiques interractives, treemap, pie charts, …)
+  - Afinage de la gestion des noms de colonnes, des types, des données numériques ...
+  - Création d'indicateurs d'évolution des compétences et outils (treemap, pie charts, …)
   - Mise en place de liens hypertextes, offres d'emploi, présentation des entreprises
   - Création de filtrations dynamiques, de widgets ...
  <br> 
