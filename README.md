@@ -231,7 +231,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 ## <ins> RAPPORT POWER BI</ins> ##
 
-### **<ins>Le marché de l'emploi dans la Manche</ins>**
+### **<ins>Présentation du jeu de données</ins>**
 <p align="left">
-   <img align="center" width="100%" src="https://github.com/fanny-lamoliatte/EMPLOI_MANCHE/blob/Emploi_Manche/VISUALISATION%20DATA/March%C3%A9%20de%20l'emploi.PNG" /> 
+   <img align="center" width="100%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Pr%C3%A9sentation_datasets.PNG" /> 
 </p>
