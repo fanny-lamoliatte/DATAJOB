@@ -6,7 +6,6 @@
 
 
 ## <ins> CONTEXT </ins> ##
-
 Dans le cadre de ma formation de Data Analyst (promotion 2024), un projet collaboratif nous a été proposé.
 
 Souhaitant me reconvertir dans le domaine de la data, il m’a semblé naturel de m’orienter vers un sujet qui me tient particulièrement à cœur : **l’analyse et le profilage des métiers de la data science.**
@@ -229,3 +228,10 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
   - Création d'indicateurs d'évolution des compétences et outils (treemap, pie charts, …)
   - Mise en place de filtrations dynamiques sur les postes occupés, les années, les aptitudes ..., de widgets
  <br> 
+
+## <ins> RAPPORT POWER BI</ins> ##
+
+### **<ins>Le marché de l'emploi dans la Manche</ins>**
+<p align="left">
+   <img align="center" width="100%" src="https://github.com/fanny-lamoliatte/EMPLOI_MANCHE/blob/Emploi_Manche/VISUALISATION%20DATA/March%C3%A9%20de%20l'emploi.PNG" /> 
+</p>
