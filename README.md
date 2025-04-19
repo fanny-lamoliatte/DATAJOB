@@ -215,7 +215,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 - <ins>**Data cleaning général sur GoogleColab**</ins>
   - Les datasets ont été nettoyés séparement, puis fusionnés
   - Restriction du nombre de colonnes (350) de moitié par choix des compétences ciblées préalablement
-  - Gestion des colonnes, des modalités (renommer, uniformiser, modifications des types, données numériques ...)
+  - Gestion des colonnes, des modalités (uniformisation, modifications des types, données numériques ...)
   - Filtration sur les 4 métiers qui nous interessent
   - Suppression des données non pertinentes à l’étude, les étudiants ainsi que les chômeurs
   - Regroupement des modalités, notamment sur la variable "Age" (de 11 à 4 valeurs)
