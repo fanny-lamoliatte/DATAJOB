@@ -160,7 +160,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
           <p> <ins>Plateformse de ML automatisé</ins><ins></p> 
           <ul>
               <li>GoogleCLoud</li>
-              </li>Datarobot</li>
+              <li>Datarobot</li>
               <li>Sagemaker</li>
               <li>Azure</li>
               <li>H2O</li>
