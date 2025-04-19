@@ -198,7 +198,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 - <ins>**Collecte des données sur le site Kaggle**</ins>
   - Enquête 2018 ***42.56 MB***
-  - Enquête 2019 ***22.21 MB*** chacune
+  - Enquête 2019 ***22.21 MB*** 
   - Enquête 2020 ***25.48 MB***
   - Enquête 2021 ***35.2 MB***
   - Enquête 2022 ***25.93 MBo***
@@ -206,9 +206,10 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 - <ins>**Data cleaning général sur GoogleColab**</ins>
   - Les datasets ont été nettoyés séparement, puis fusionnés
-  - Gestion des colonnes, des modalités (renommer, uniformiser, modifications des types de données ...)
+  - Gestion des colonnes, des modalités (renommer, uniformiser, modifications des types ...)
   - Suppressions des données non pertinentes à l’étude, les étudiants ainsi que les chômeurs 
-  - Filtration 
+  - Filtration sur les 4 métiers qui nous interessent
+  - Conception de visuels tests pour sélectionner les plus efficaces
   - Téléchargement des datasets sur Power BI
 <br>
 
