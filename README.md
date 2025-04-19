@@ -225,8 +225,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 <br>
 
 - <ins>**Data cleaning approfondi sur Power BI**</ins>
-  - Afinage de la gestion des noms de colonnes, des types, des données numériques ...
+  - Affinage de la gestion des noms de colonnes, des types, des données numériques ...
   - Création d'indicateurs d'évolution des compétences et outils (treemap, pie charts, …)
-  - Mise en place de liens hypertextes, offres d'emploi, présentation des entreprises
-  - Création de filtrations dynamiques, de widgets ...
+  - Mise en place de filtrations dynamiques sur les postes occupés, les années, les aptitudes ..., de widgets
  <br> 
