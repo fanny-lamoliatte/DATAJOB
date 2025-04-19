@@ -34,7 +34,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 **J’ai repris le projet en le consolidant**, notamment par ***l’ajout des sondages de 2018 et 2019*** ainsi qu'en ***affinant la sélection des variables***, ce qui m'a permis d'en ***accroitre les performances.***
 <br>
 <br>
-<br>
+
 
 ## <ins> PRESENTATION DES DONNEES </ins> ##
 
