@@ -193,6 +193,12 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 <br>
 <br>
 
+### **<ins>Présentation des variables**
+
+<p align="center">
+   <img align="center" width="50%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/Screen%20visuel%20dataset%20nettoy%C3%A9.PNG" />
+</p>
+
 
 ## <ins> METHODOLOGIE </ins> ##
 
