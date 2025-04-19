@@ -190,14 +190,16 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
    </tr>        
 </table>
 <br>
-<br>
-<br>
 
-### **<ins>Présentation des variables**
+
+### **<ins>Visuel du dataset nettoyé</ins> **
 
 <p align="center">
    <img align="center" width="50%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/Screen%20visuel%20dataset%20nettoy%C3%A9.PNG" />
 </p>
+<br>
+<br>
+<br>
 
 
 ## <ins> METHODOLOGIE </ins> ##
