@@ -235,6 +235,8 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 <p align="center">
    <img align="center" width="80%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Pr%C3%A9sentation_datasets.PNG" /> 
 </p>
+<br> 
+<br> 
 
 ### **<ins>Présentation d'une page de glossaire</ins>**
 <p align="center">
