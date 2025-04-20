@@ -21,7 +21,7 @@ L’objectif consiste à comprendre, à l’aide des données, les différents p
 
 Cette étude a ainsi une **double finalité** : 
 - ***cartographier les métiers de la Data*** afin d’en saisir la diversité et la spécificité, présenté sous la forme d'un rapport Power BI
-- ***construire un système de recommandation*** capable de suggérer, à un apprenant ou une personne en reconversion, le poste le plus en adéquation avec ses préférences et ses compétences, à travers la mise en place d'une application Streamlit.
+- ??????????????????????????????????????????????????????????????????????????????????????????????***construire un système de recommandation*** capable de suggérer, à un apprenant ou une personne en reconversion, le poste le plus en adéquation avec ses préférences et ses compétences, à travers la mise en place d'une application Streamlit.
 
 Pour cela, nous nous sommes appuyés sur les données issues de **sondages Kaggle**, en nous concentrant sur 4 métiers spécifiques:
 - Data Analyst
