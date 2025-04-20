@@ -237,14 +237,14 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
    <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Pr%C3%A9sentation_datasets.PNG" /> 
 </p>
 <br> 
-<br> 
+
 
 ### **<ins>Présentation d'une page de glossaire</ins>**
 <p align="center">
    <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Glossaire.PNG" /> 
 </p>
 <br> 
-<br> 
+
 
 ### **<ins>Présentation des compétences nédessaires à chaque métier</ins>**
 <p align="center">
