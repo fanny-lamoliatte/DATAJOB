@@ -227,7 +227,8 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
   - Affinage de la gestion des noms de colonnes, des types, des données numériques ...
   - Création d'indicateurs d'évolution des compétences et outils (treemap, pie charts, …)
   - Mise en place de filtrations dynamiques sur les postes occupés, les années, les aptitudes ..., de widgets
- <br> 
+ <br>
+ <br>
 
 ## <ins> RAPPORT POWER BI</ins> ##
 
@@ -258,3 +259,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 </p>
 <br> 
 <br> 
+<br>
+<br>
+
+## <ins> CONCLUSIONS DU RAPPORT POWER BI </ins> ##
