@@ -260,8 +260,15 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 <br> 
 <br> 
 
+## <ins> APPLICATION STREAMLIT </ins> ##
 
-## <ins> CONCLUSIONS DU RAPPORT POWER BI </ins> ##
+
+<br> 
+<br> 
+
+
+
+## <ins> CONCLUSIONS </ins> ##
 
 À travers cette étude, il apparaît clairement que les différents métiers de la data science partagent un **solide tronc commun de comptétences.**\                           
 <br>
