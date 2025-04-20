@@ -251,7 +251,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
    <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Skills.PNG" /> 
 </p>
 <br> 
-<br> 
+
 
 ### **<ins>Evolution des compétences nédessaires à chaque métier</ins>**
 <p align="center">
@@ -259,7 +259,6 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 </p>
 <br> 
 <br> 
-<br>
-<br>
+
 
 ## <ins> CONCLUSIONS DU RAPPORT POWER BI </ins> ##
