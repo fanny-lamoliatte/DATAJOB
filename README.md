@@ -265,5 +265,10 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 À travers cette étude, il apparaît clairement que les différents métiers de la data science partagent un **socle de compétences commun, particulièrement solide.**
 <br>
-Les profils de Data Analyst et de Data Scientist, à dominante plus généraliste, présentent de nombreuses similitudes.\
-Alors que le Data Analyst se concentre sur l’exploration et l’interprétation des données pour comprendre les événements passés, le Data Scientist va plus loin en développant des modèles prédictifs afin d’anticiper les tendances et d’automatiser la prise de décision.
+Le Data Analyst explore et interprète les données afin de comprendre les tendances passées et d’éclairer les prises de décision. Il maîtrise les outils de traitement de données (SQL, Python) ainsi que les solutions de visualisation et de reporting comme Tableau ou Power BI.
+
+Quant à lui, le Data Scientist transforme les données complexes en modèles exploitables. Spécialiste en modélisation prédictive et automatisation des décisions, dispose d’une solide expertise en machine learning, en Python, R, de même qu’en outils cloud.
+
+Le Software Engineer conçoit des applications web et logicielles, tout en intégrant et déployant des modèles de machine learning en production. Il travaille principalement en Java, JavaScript et maitrise les outils DevOps pour l’automatisation des processus.
+
+Enfin, le Research Scientist conçoit des algorithmes complexes et exploite des flux de données en temps réel afin de répondre à des problématiques de recherche appliquée. C’est un expert en R, Python, C/C++ de même qu’en calcul de haute performance.
