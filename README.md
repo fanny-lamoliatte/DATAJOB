@@ -233,12 +233,28 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 ### **<ins>Présentation du jeu de données</ins>**
 <p align="center">
-   <img align="center" width="80%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Pr%C3%A9sentation_datasets.PNG" /> 
+   <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Pr%C3%A9sentation_datasets.PNG" /> 
 </p>
 <br> 
 <br> 
 
 ### **<ins>Présentation d'une page de glossaire</ins>**
 <p align="center">
-   <img align="center" width="80%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Glossaire.PNG" /> 
+   <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Glossaire.PNG" /> 
 </p>
+<br> 
+<br> 
+
+### **<ins>Présentation des compétences nédessaires à chaque métier</ins>**
+<p align="center">
+   <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Skills.PNGG" /> 
+</p>
+<br> 
+<br> 
+
+### **<ins>Evolution des compétences nédessaires à chaque métier</ins>**
+<p align="center">
+   <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Evolution_compt%C3%A9tences.PNG" /> 
+</p>
+<br> 
+<br> 
