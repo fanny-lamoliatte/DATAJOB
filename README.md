@@ -262,3 +262,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 
 ## <ins> CONCLUSIONS DU RAPPORT POWER BI </ins> ##
+
+À travers cette étude, il apparaît clairement que les différents métiers de la data science partagent un **socle de compétences commun, particulièrement solide.**\
+Les profils de Data Analyst et de Data Scientist, à dominante plus généraliste, présentent de nombreuses similitudes.\
+Si le **Data Analyst** a pour vocation l'***exploration et l'interprétation des données pour comprendre les évènements passés***, le **Data Scientist** pousse ***plus loin dans la modélisation et le prédictif dans le but d'anticiper et d'automatiser des décisions actuelles.*** 
