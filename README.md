@@ -247,7 +247,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 ### **<ins>Présentation des compétences nédessaires à chaque métier</ins>**
 <p align="center">
-   <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Skills.PNGG" /> 
+   <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Skills.PNG" /> 
 </p>
 <br> 
 <br> 
