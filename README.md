@@ -21,7 +21,7 @@ L’objectif consiste à comprendre, à l’aide des données, les différents p
 
 Cette étude a ainsi une **double finalité** : 
 - ***cartographier les métiers de la Data*** afin d’en saisir la diversité et la spécificité, présenté sous la forme d'un rapport Power BI
-- ***créer une application interactive*** permettane de visualiser et d’analyser les données liées aux métiers de la data, tels que Data Scientist ou Data Analyst. Elle intègre également des modèles prédictifs pour anticiper les tendances et l’évolution de ces rôles.
+- ***créer une application interactive*** permettant de visualiser et d’analyser les données liées aux métiers de la data, tels que Data Scientist ou Data Analyst. Elle intègre également des modèles prédictifs pour anticiper les tendances et l’évolution de ces rôles.
 
 Pour cela, nous nous sommes appuyés sur les données issues de **sondages Kaggle**, en nous concentrant sur 4 métiers spécifiques:
 - Data Analyst
