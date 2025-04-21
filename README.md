@@ -265,6 +265,41 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 Ce projet propose une application interactive dédiée à l'exploration, la visualisation et la prédiction de données professionnelles des acteurs du monde de la data science. 
 Elle permet une analyse en profondeurs des rôles de chaque métier, de leurs outils ainsi que des compétences techniques nécessaires à chacun d’eux. 
 
+<table>
+  <tr>
+    <td>
+
+```python
+### MISE EN PAGE DE L'APPLI
+
+st.image("datajob_logo_rouge.PNG", width=600)
+
+st.sidebar.title("SOMMAIRE")                                      
+pages = ["**Présentation des données**", "**DataVisualisation**", "**Modélisation prédictive**"]
+page = st.sidebar.radio("", pages)
+
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+      </td>
+      <td> <img src="https://github.com/fanny-lamoliatte/DATAJOB/raw/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20pr%C3%A9sentation%20des%20donn%C3%A9es.PNG" width="400"/>
+      </td>
+   </tr>
+</table> ```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <table>
   <tr>
