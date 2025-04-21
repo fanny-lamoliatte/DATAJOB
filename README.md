@@ -535,7 +535,7 @@ if page == pages[ 0 ] :
 ```
 
 <p align="center">
-   <img align="center" width="20%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/STREAMLIT_APP/STREAMLIT_SCREENS/Console%20de%20mod%C3%A9lisation.PNG" /> 
+   <img align="center" width="30%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/STREAMLIT_APP/STREAMLIT_SCREENS/Console%20de%20mod%C3%A9lisation.PNG" /> 
 </p>
 
 
