@@ -283,8 +283,10 @@ Elle permet une analyse en profondeurs des rôles de chaque métier, de leurs ou
       st.write("")   
          ```
       </td>   
-      <td> src="ihttps://github.com/fanny-lamoliatte/DATAJOB/blob/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20pr%C3%A9sentation%20des%20donn%C3%A9es.PNG" width="400"/
-
+      <td> src="ihttps://github.com/fanny-lamoliatte/DATAJOB/blob/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20pr%C3%A9sentation%20des%20donn%C3%A9es.PNG" width="400"
+      </td>
+   </tr>        
+</table>
 
 
 <p>
