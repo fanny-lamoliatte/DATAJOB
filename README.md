@@ -265,11 +265,14 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 Ce projet propose une application interactive dédiée à l'exploration, la visualisation et la prédiction de données professionnelles des acteurs du monde de la data science. 
 Elle permet une analyse en profondeurs des rôles de chaque métier, de leurs outils ainsi que des compétences techniques nécessaires à chacun d’eux. 
 
+
+
 <table>
   <tr>
     <td>
 
-```python
+<pre>
+<code>
 ### MISE EN PAGE DE L'APPLI
 
 st.image("datajob_logo_rouge.PNG", width=600)
@@ -282,109 +285,18 @@ st.write("")
 st.write("")
 st.write("")
 st.write("")
-      </td>
-      <td> <img src="https://github.com/fanny-lamoliatte/DATAJOB/raw/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20pr%C3%A9sentation%20des%20donn%C3%A9es.PNG" width="400"/>
-      </td>
-   </tr>
-</table> ```
+</code>
+</pre>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table>
-  <tr>
+</td>
     <td>
-       ```
-             ### MISE EN PAGE DE L'APPLI
-      
-      st.image("datajob_logo_rouge.PNG", width=600)
-      
-      st. sidebar.title( " SOMMAIRE " )                                      
-      pages=[ " **Présentation des données**" , "**DataVisualisation**", "**Modélisation prédictive**"  ]
-      page=st.sidebar.radio("", pages )
-      st.write("")
-      st.write("")
-      st.write("")
-      st.write("")   
-         ```
-      </td>   
-      <td> src="ihttps://github.com/fanny-lamoliatte/DATAJOB/blob/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20pr%C3%A9sentation%20des%20donn%C3%A9es.PNG" width="400"
-      </td>
-   </tr>        
+      <img src="https://github.com/fanny-lamoliatte/DATAJOB/raw/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20pr%C3%A9sentation%20des%20donn%C3%A9es.PNG" width="400"/>
+    </td>
+  </tr>
 </table>
 
 
-<p>
-  <div style="display: flex; align-items: flex-start;">
-    <div style="width: 50%;">
-      <pre>
-<code>
-   ### MISE EN PAGE DE L'APPLI
-   
-   st.image("datajob_logo_rouge.PNG", width=600)
-   
-   st. sidebar.title( " SOMMAIRE " )                                      
-   pages=[ " **Présentation des données**" , "**DataVisualisation**", "**Modélisation prédictive**"  ]
-   page=st.sidebar.radio("", pages )
-   st.write("")
-   st.write("")
-   st.write("")
-   st.write("")  
-   
-   
-   ### PAGE 1 PRESENTATION DATASETS
-   if page == pages[ 0 ] :     
-     st.markdown(
-       "<h3 style='text-align:center; font-size: 40px;color: #18009e; font-style: italic;'>Présentation des données</h3>",
-       unsafe_allow_html=True)
-     st.write("")
-     st.write("")
-   
-     st.markdown(
-       "<h6 style='text-align: left; font-size: 23px; color: #000000; '>Visuel du jeu de données</h6>",unsafe_allow_html=True)
-     st.dataframe(df.head( 10 ) )
-     st.write("")
-     st.write("")
-     st.write("")
-   
-     st.markdown(
-       "<h6 style='text-align: left; font-size: 23px; color: #000000;'>Taille du jeu de données</h6>",unsafe_allow_html=True)
-     st.markdown( f"""
-       <div style='text-align: left; font-size: 17px; color: #009400;'>
-           {df.shape[0]} lignes &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; {df.shape[1]} colonnes</div>
-       """, unsafe_allow_html=True)
-     st.write("")
-     st.write("")
-     st.write("")
-   
-     st.markdown(
-       "<h6 style='text-align: left; font-size: 23px; color: #000000;'>Description des variables catégorielles</h6>",unsafe_allow_html=True)
-     if st.checkbox("Liste des métiers") :
-        st.dataframe(df["Current_role"].unique()) 
-     if st.checkbox("Liste des compétences") :
-        st.dataframe(df.columns[13:])
-     if st.checkbox("Liste des niveaux d'études") :
-        st.dataframe(df_1["EducationLevel"].unique())
-     if st.checkbox("Répartition des tranches d'âges") :
-        st.dataframe(df["Age"].value_counts())
-</code>
-      </pre>
-    </div>
-    <div style="width: 50%; padding-left: 20px;">
-      <img src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20pr%C3%A9sentation%20des%20donn%C3%A9es.PNG" alt="Capture d'écran" width="100%">
-    </div>
-  </div>
-</p>
+
 
 
 
