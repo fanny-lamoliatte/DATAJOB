@@ -266,13 +266,7 @@ Ce projet propose une application interactive dédiée à l'exploration, la visu
 Elle permet une analyse en profondeurs des rôles de chaque métier, de leurs outils ainsi que des compétences techniques nécessaires à chacun d’eux. 
 
 
-
-<table>
-  <tr>
-    <td>
-
-<pre>
-<code>
+```
 ### MISE EN PAGE DE L'APPLI
 st.image("datajob_logo_rouge.PNG", width=600)
 st. sidebar.title( " SOMMAIRE " )                                      
@@ -314,17 +308,12 @@ if page == pages[ 0 ] :
      st.dataframe(df_1["EducationLevel"].unique())
   if st.checkbox("Répartition des tranches d'âges") :
      st.dataframe(df["Age"].value_counts())
-</code>
-</pre>
-
-</td>
-    <td>
-      <img src="https://github.com/fanny-lamoliatte/DATAJOB/raw/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20pr%C3%A9sentation%20des%20donn%C3%A9es.PNG" width="1000"/>
-    </td>
-  </tr>
-</table>
+```
 
 
+<p align="center">
+   <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/raw/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20pr%C3%A9sentation%20des%20donn%C3%A9es.PNG" /> 
+</p>
 
 
 
