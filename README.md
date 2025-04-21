@@ -312,7 +312,7 @@ if page == pages[ 0 ] :
 
 
 <p align="center">
-   <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/raw/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20pr%C3%A9sentation%20des%20donn%C3%A9es.PNG" /> 
+   <img align="center" width="50%" src="https://github.com/fanny-lamoliatte/DATAJOB/raw/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20pr%C3%A9sentation%20des%20donn%C3%A9es.PNG" /> 
 </p>
 
 
