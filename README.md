@@ -310,14 +310,71 @@ if page == pages[ 0 ] :
      st.dataframe(df["Age"].value_counts())
 ```
 
-
 <p align="center">
    <img align="center" width="50%" src="https://github.com/fanny-lamoliatte/DATAJOB/raw/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20pr%C3%A9sentation%20des%20donn%C3%A9es.PNG" /> 
 </p>
 
 
 
+```
+## GRAPH REPARTITION DES NIVEAUX DE FORMATION PAR POSTES EN TREEMAPS 
+ # Liste des couleurs
+    color_map = {
+        'Other': '#f0bd37', 
+        'Master': '#ffacd0',  
+        'Bachelor': '#6fa8dc',  
+        'Professional': '#cbdff7',  
+        'Doctoral': '#dcedc1', 
+        'NotAnswer': '#f60303'} 
+# Liste métiers
+    roles = ['Data Analyst', 'Data Scientist', 'Software Engineer', 'Research Scientist']
+# Créa figure multigraph 2 lignes 2 colonnes
+    fig = make_subplots(
+        rows=2, cols=2,  
+        subplot_titles=roles,  # titre des ss graphes == métiers
+        specs=[[{"type": "domain"}, {"type": "domain"}],  # Définit que chaque sous-graphe sera un graphique de type "domain" (treemap)
+            [{"type": "domain"}, {"type": "domain"}]],  # domain == graph treemap
+        vertical_spacing=0.1,  # espace vertical entre ss graphs
+        horizontal_spacing=0.08)  # espace horizontal ss graph
+# Position treemaps dans la figure
+    positions = [(1, 1), (1, 2), (2, 1), (2, 2)]
+# Compter nbre occurence pour chaque métier
+    for idx, role in enumerate(roles):
+        df_role = df_sampled_1[df_sampled_1['Current_role'] == role]  # comptage par métiers 
+# Compter nbre occurence de niveaux de formation pour chaques métiers
+        data_counts = df_role['EducationLevel'].value_counts().reset_index() 
+        data_counts.columns = ['EducationLevel', 'Count']  # renommer les cols après comptage
+        data_counts['Count'] = data_counts['Count'].astype(int)  
+# Liste des couleurs choisies pour les niveaux de formation
+        colors = [color_map.get(level, '#cccccc') for level in data_counts['EducationLevel']]
+# Créa treemap pour chaque modalité
+        treemap = go.Treemap(
+            labels=data_counts['EducationLevel'],  # labels 
+            parents=[""] * len(data_counts),  # aucune hiérarchie dans les niveaux de formations 
+            values=data_counts['Count'],  # taille des segments en fonction des quantités
+            marker=dict(colors=colors),  # couleurs segments
+            textinfo="label+percent entry",  # affichage labels et pourcentage
+            textfont=dict(family="Arial", size=14, weight="bold"))  #  labels en gras       
+# Position les treemaps dans la figure
+        row, col = positions[idx]  #  position du sous-graphe (ligne et colonne)
+        fig.add_trace(treemap, row=row, col=col)  # insertion treemap à l'endroit du dessus
+# Mettre à jour la mise en page du graphique
+    fig.update_layout(
+        height=650,  # hauteur figure
+        width=1500,  # largeur figure
+        title_text="Répartition des niveaux de formations par métiers",  # titre générale
+        title_x=0.15,  # position horizontalement du titre 
+        title_y=0.95,  # position verticale du titre 
+        title_font=dict(size=22),  # taille  du titre
+        font=dict(size=20),  # taille  des textes 
+        margin=dict(t=100, l=20, r=20, b=20),  # ajuster les marges 
+        showlegend=False)
+    st.plotly_chart(fig) 
+```
 
+<p align="center">
+   <img align="center" width="50%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20visualisation%20des%20donn%C3%A9es.PNG" /> 
+</p>
 
 
 
