@@ -262,6 +262,11 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 ## <ins> APPLICATION STREAMLIT </ins> ##
 
+Ce projet propose une application interactive dédiée à l'exploration, la visualisation et la prédiction de données professionnelles des acteurs du monde de la data science. 
+Elle permet une analyse en profondeurs des rôles de chaque métier, de leurs outils ainsi que des compétences techniques nécessaires à chacun d’eux. 
+
+
+
 
 <br> 
 <br> 
