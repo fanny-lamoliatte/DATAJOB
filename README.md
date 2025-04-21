@@ -379,6 +379,52 @@ if page == pages[ 0 ] :
 
 
 
+```
+# MISE EN PLACE ENTRAINEMENT DES MODELES
+# Création des répertoires pour sauvegarder les modèles, images, et scores
+    import os
+    os.makedirs("models.joblib", exist_ok=True)
+    os.makedirs("images.joblib", exist_ok=True)
+# Séparation des features et de la cible
+    feats = df.drop('Current_role', axis=1)
+    target = df['Current_role']
+# Séparation Train / Test 20%
+    X_train,X_test,y_train,y_test=train_test_split(feats, target, test_size=0.2, random_state=42)
+# Sépa vars nums et catés
+    num_cols = X_train.select_dtypes(include=['int64', 'float64'])
+    cat_cols = X_train.select_dtypes(include=['object'])
+# Entrainement vars nums
+    num_train=X_train.select_dtypes(include='int64')
+    num_test=X_test.select_dtypes(include='int64')
+# Entrainement vars catés
+    cat_train=X_train.select_dtypes(include='object')
+    cat_test=X_test.select_dtypes(include='object')
+# encodage de target
+    label=LabelEncoder()
+    y_train=label.fit_transform(y_train)
+    y_test=label.transform(y_test)
+# encodage feats nums
+    scaler=StandardScaler()
+    num_train=scaler.fit_transform(num_train)
+    num_test=scaler.transform(num_test)
+# encodage feats catés
+    cat_train=pd.get_dummies(cat_train)
+    cat_test=pd.get_dummies(cat_test)
+# Alignement des cols (pour éviter ttes erreurs de taille entre les datasets train et test)
+    cat_train, cat_test = cat_train.align(cat_test, join='left', axis=1, fill_value=0)
+# reconstitution des datasets encodé
+    X_train=np.concatenate([num_train,cat_train],axis=1)
+    X_test=np.concatenate([num_test,cat_test],axis=1)
+# CREA DES LISTES DE MODELES SCORES 
+    model_name_list = ['RandomForestClassifier', 'LogisticRegression', 'KNeighborsClassifier', 'DecisionTreeClassifier']
+    metric_choice = ['Accuracy', 'Matrice de confusion', 'Rapport de classification']
+    class_names = ["Classe 0", "Classe 1","Classe 2", "Classe 3"]  
+```
+
+<p align="center">
+   <img align="center" width="50%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/STREAMLIT_APP/STREAMLIT_SCREENS/Page%20mod%C3%A9lisation%20des%20donn%C3%A9es.PNG" /> 
+</p>
+
 
 
 
