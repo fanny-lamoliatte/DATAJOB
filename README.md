@@ -427,6 +427,116 @@ if page == pages[ 0 ] :
 
 
 
+```
+# MISE EN PLACE SELECTBOX MODELES ET HYPERPARAMS
+# Affichage titre choix du modèle
+    st.sidebar.subheader('Choix du modèle')
+    model_select = st.sidebar.selectbox("Modèle choisi", model_name_list)
+    metric_select= st.sidebar.selectbox('Métrique choisi',metric_choice)
+# Affichage titre choix du métrique 
+    st.sidebar.subheader("Hyperparamètres du modèle")
+    params = {}
+    if model_select == 'RandomForestClassifier':
+        params['n_estimators'] = st.sidebar.slider('n_estimators', 100, 1000, 300, step=50)
+        params['max_depth'] = st.sidebar.slider('max_depth', 1, 50, 10)
+    elif model_select == 'LogisticRegression':
+        params['C'] = st.sidebar.slider('C (régularisation)', 0.01, 10.0, 1.0, step=0.1)
+        params['max_iter'] = st.sidebar.slider('max_iter', 100, 1000, 300, step=50)
+    elif model_select == 'DecisionTreeClassifier':
+        params['max_depth'] = st.sidebar.slider('max_depth', 1, 50, 5)
+        params['min_samples_split'] = st.sidebar.slider('min_samples_split', 2, 20, 4)
+    elif model_select == 'KNeighborsClassifier':
+        params['n_neighbors'] = st.sidebar.slider('n_neighbors', 1, 20, 7)
+        params['metric'] = st.sidebar.radio('Distance metric', ('euclidean', 'manhattan', 'minkowski'))
+# Créa f° d'affichage des modèles avec leurs hyperparams
+    def create_model(name, params):
+        if name == 'RandomForestClassifier':
+            return RandomForestClassifier(n_estimators=params['n_estimators'],
+                                        max_depth=params['max_depth'],
+                                        random_state=42)
+        elif name == 'LogisticRegression':
+            return LogisticRegression(C=params['C'], max_iter=params['max_iter'])
+        elif name == 'DecisionTreeClassifier':
+            return DecisionTreeClassifier(max_depth=params['max_depth'],
+                                        min_samples_split=params['min_samples_split'])
+        elif name == 'KNeighborsClassifier':
+            return KNeighborsClassifier(n_neighbors=params['n_neighbors'],
+                                        metric=params['metric'])
+# Créa f° de sauvegarde des modèles entrainés pour éviter le recalcul des résultats == gain de temps affichage
+    @st.cache_resource
+    def train_model(_model, X_train, y_train): 
+        _model.fit(X_train, y_train)
+        return _model
+# Entraînement du modele lorsque bouton est cliqué
+    if st.sidebar.button("Entraîner le modèle"):
+        with st.spinner("Modèle en cours d'entraînement..."):
+            model = train_model(create_model(model_select, params), X_train, y_train)
+            y_pred = model.predict(X_test)
+            # Sauvegarde du modèle
+            os.makedirs("models", exist_ok=True)
+            joblib.dump(model, f"models/{model_select}.joblib",compress=3)
+            # Sauvegarde matrice 
+            def save_matrix(y_true, y_pred, model_name):
+                cm = confusion_matrix(y_true, y_pred)
+                plt.figure(figsize=(8, 6))
+                sns.heatmap(cm, annot=True, fmt="d", cmap="Blues",
+                            xticklabels=class_names, yticklabels=class_names)
+                plt.title(f"Matrice de confusion - {model_name}")
+                plt.xlabel("Prédictions")
+                plt.ylabel("Réalité")
+                plt.tight_layout()
+                os.makedirs("images", exist_ok=True)
+                plt.savefig(f"images/{model_name}_confusion_matrix.png")
+                plt.close()
+            save_matrix(y_test, y_pred, model_select)
+            # Affichage des métriques
+            if metric_select == 'Accuracy':
+                accuracy = accuracy_score(y_test, y_pred)
+                st.write("**ACCURACY** = Mesure de l'exactitude globale des prédictions d'un modèle en calculant le rapport entre les échantillons correctement classés et le nombre total d'échantillons.")
+                st.markdown(f"""
+                            <h2 style='text-align: left; color: green; font-size: 25px;'>
+                            {accuracy:.4f}
+                         </h2>""", unsafe_allow_html=True)
+            elif metric_select == 'Matrice de confusion':
+                st.subheader(" _Matrice de confusion_")
+                st.write("La matrice de confusion est un outil de mesure de la performance des modèles de classification. Elle résume ici de manière graphique les valeurs absolues des données prédictives et réelles")
+                st.write(" ")
+                st.write(" ")              
+                cm = confusion_matrix(y_test, y_pred)
+                fig, ax = plt.subplots(figsize=(5, 3))
+                sns.heatmap(cm, annot=True, fmt="d", cmap="Blues",
+                            xticklabels=class_names, yticklabels=class_names,
+                            annot_kws={"fontsize": 8})
+                ax.tick_params(axis='both', labelsize=5) 
+                plt.xlabel("Prédiction",color="red",fontsize=10)
+                plt.ylabel("Réalité",color="red",fontsize=10)
+                st.pyplot(fig)
+            elif metric_select == 'Rapport de classification':
+                st.subheader("_Rapport de classification_")
+                st.write(" ")
+                st.write(" ")  
+                st.markdown("""
+                Le **rapport de classification** est un outil utilisé dans l'apprentissage automatique pour évaluer les performances d'un modèle de classification.  
+                Il présente les métriques suivantes pour chaque classe :
+                - **Recall** : Taux de vrais positifs (sensibilité)
+                - **Precision** : Précision des prédictions positives
+                - **F1-score** : Moyenne harmonique de la précision et du rappel
+                - **Support** : Nombre réel d'échantillons par classe""")
+                st.write(" ") 
+                st.write(" ")     
+                st.write(" ")                    
+                # Transfo du rapport en df
+                report_dict = classification_report(y_test, y_pred, target_names=class_names, output_dict=True)
+                df_report = pd.DataFrame(report_dict).transpose()
+                # Que lignes des classes et accuracy
+                rows_to_keep = list(class_names) + ['accuracy']
+                df_report_filtered = df_report[df_report.index.isin(rows_to_keep)]
+                st.dataframe(df_report_filtered[['precision', 'recall', 'f1-score', 'support']])
+```
+
+<p align="center">
+   <img align="center" width="50%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/STREAMLIT_APP/STREAMLIT_SCREENS/Console%20de%20mod%C3%A9lisation.PNG" /> 
+</p>
 
 
 
