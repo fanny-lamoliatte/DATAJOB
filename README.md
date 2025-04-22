@@ -68,7 +68,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
               <li>Data Analyst</li>
               <li>Data Scientist</li>
               <li>Software Engineer</li>
-              <li>JResearch Scientist</li>
+              <li>Research Scientist</li>
           </ul>
       </td>
       <td>
