@@ -76,7 +76,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
           <ul>
               <li>18 à 29 ans</li>
               <li>30 à 44 ans</li>
-              <li>45 à 29 ans</li>
+              <li>45 à 59 ans</li>
               <li>+ 60 ans</li>
           </ul>
       </td>
