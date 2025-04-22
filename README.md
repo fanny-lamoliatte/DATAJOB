@@ -537,9 +537,16 @@ if page == pages[ 0 ] :
 <p align="center">
    <img align="center" width="30%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/STREAMLIT_APP/STREAMLIT_SCREENS/Console%20de%20mod%C3%A9lisation.PNG" /> 
 </p>
+<br/>
+
+Notons aussi que le **monde de la data est en perpétuel mouvement.**
+
+Afin de répondre aux demandes "clients" de plus en plus spécifiques, dans un but de ***simplification et valorisation des performances***, de nombreux ***outils, méthodes sont conçus et mis régulièrement à la disposition des codeurs, développeurs.***
+
+D’où une faculté nécessaire des acteurs de la Data à l’***adaptation ainsi à la formation en continue.***
 
 
-
+Enfin, il est important de relever une **spécialisation des métiers de datascience**, dans un souci de gain de temps, de valorisation et d'accessibilité aux données, mais aussi et surtout afin de pousser de plus en plus loin le champ des possibles en totale adaptation aux nécessités entreprises, comportementales, sociétales
 
 
 
