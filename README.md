@@ -254,7 +254,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 <br> 
 
 
-### **<ins>Evolution des compétences nédessaires à chaque métier</ins>**
+### **<ins>Evolution des compétences nécessaires à chaque métier</ins>**
 <p align="center">
    <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Evolution_compt%C3%A9tences.PNG" /> 
 </p>
