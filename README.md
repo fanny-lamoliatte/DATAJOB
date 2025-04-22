@@ -545,7 +545,7 @@ if page == pages[ 0 ] :
 
 ## <ins> CONCLUSIONS </ins> ##
 
-À travers cette étude, il apparaît clairement que les différents métiers de la data science partagent un **solide tronc commun de comptétences.**\                           
+À travers cette étude, il apparaît clairement que les différents métiers de la data science partagent un **solide tronc commun de comptétences.**                           
 <br>
 Le **Data Analyst** explore et interprète les données afin de comprendre les tendances passées et d’éclairer les prises de décision. Il maîtrise les outils de ***traitement de données (SQL, Python)*** ainsi que les ***solutions de visualisation*** et de ***reporting*** comme ***Tableau ou Power BI.***
 
