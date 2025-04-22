@@ -124,18 +124,19 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
       <td>
           <p> <ins>Librairies de visualisations<ins></p>
           <ul>
-              <li>Bachelor</li>
-              <li>Master</li>
-              <li>Doctoral</li>
-          </ul>
-      </td>
-      <td>
-          <p> <ins>Logiciels de reportings<ins></p>
-          <ul>
               <li>Matplotlib</li>
               <li>Seaborn</li>
               <li>Plotly</li>
               <li>Ggplot</li>
+          </ul>
+      </td>
+      <td>
+          <p> <ins>Logiciels de reportings<ins></p>
+          <ul/>
+              <li>Tableau</li>
+              <li>Power BI</li>
+              <li>DataStudio</li>
+              <li>QuickSight</li>
           </ul>
       </td>
    </tr>              
