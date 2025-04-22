@@ -549,7 +549,7 @@ if page == pages[ 0 ] :
 <br>
 Le **Data Analyst** explore et interprète les données afin de comprendre les tendances passées et d’éclairer les prises de décision. Il maîtrise les outils de ***traitement de données (SQL, Python)*** ainsi que les ***solutions de visualisation*** et de ***reporting*** comme ***Tableau ou Power BI.***
 
-Quant à lui, le **Data Scientist** transforme les données complexes en modèles exploitables. Spécialiste en ***modélisation prédictive*** et ***automatisation des décisions***, dispose d’une ***solide expertise en machine learning***, en ***Python, R*** , de même qu’en ***outils cloud.***
+Le **Data Scientist**, quant à lui, transforme les données complexes en modèles exploitables. Spécialiste en ***modélisation prédictive*** et ***automatisation des décisions***, dispose d’une ***solide expertise en machine learning***, en ***Python, R*** , de même qu’en ***outils cloud.***
 
 Le **Software Engineer** conçoit des applications web et logicielles, tout en intégrant et déployant des modèles de machine learning en production. Il travaille principalement en ***Java, JavaScript*** et maitrise les ***outils DevOps pour l’automatisation des processus.***
 
