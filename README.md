@@ -209,7 +209,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
   - Enquête 2019 ***22.21 MB*** 
   - Enquête 2020 ***25.48 MB***
   - Enquête 2021 ***35.2 MB***
-  - Enquête 2022 ***25.93 MBo***
+  - Enquête 2022 ***25.93 MB***
 <br>
 
 - <ins>**Data cleaning général sur GoogleColab**</ins>
