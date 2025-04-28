@@ -267,7 +267,8 @@ Ce projet propose une application interactive dédiée à l'exploration, la visu
 Elle permet une analyse en profondeurs des rôles de chaque métier, de leurs outils ainsi que des compétences techniques nécessaires à chacun d’eux. 
 
 Voici le lien de connection à mon application: http://170.39.216.234:8501
-
+<br> 
+<br> 
 
 ```
 ### MISE EN PAGE DE L'APPLI
