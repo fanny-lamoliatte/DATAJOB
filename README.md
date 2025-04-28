@@ -265,6 +265,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 Ce projet propose une application interactive dédiée à l'exploration, la visualisation et la prédiction de données professionnelles des acteurs du monde de la data science. 
 Elle permet une analyse en profondeurs des rôles de chaque métier, de leurs outils ainsi que des compétences techniques nécessaires à chacun d’eux. 
+Voici le lien de connection à mon application: http://170.39.216.234:8501
 
 
 ```
@@ -567,5 +568,5 @@ D’où une faculté nécessaire des acteurs de la Data à l’***adaptation ain
 
 Enfin, il est important de relever une **spécialisation des métiers de data science**, dans un souci de ***gain de temps***, de ***valorisation*** et ***d'accessibilité aux données***, mais aussi et surtout afin de ***pousser de plus en plus loin le champ des possibles*** en totale adaptation aux nécessités entreprises, comportementales, sociétales.
 
-http://170.39.216.234:8501
+
 
