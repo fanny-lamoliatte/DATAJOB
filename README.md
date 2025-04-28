@@ -566,3 +566,6 @@ D’où une faculté nécessaire des acteurs de la Data à l’***adaptation ain
 <br>
 
 Enfin, il est important de relever une **spécialisation des métiers de data science**, dans un souci de ***gain de temps***, de ***valorisation*** et ***d'accessibilité aux données***, mais aussi et surtout afin de ***pousser de plus en plus loin le champ des possibles*** en totale adaptation aux nécessités entreprises, comportementales, sociétales.
+
+http://170.39.216.234:8501
+
