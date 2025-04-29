@@ -1,24 +1,3 @@
-
-METTRE ENVOI FORMAT PBIX
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <p align="center">
    <img align="center" width="50%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/datajob_logo_rouge.PNG" />
 </p>
@@ -253,6 +232,8 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
  <br>
 
 ## <ins> RAPPORT POWER BI</ins> ##
+
+### **<ins>C’est avec plaisir que je vous transmettrai le rapport au format .pbix</ins>**
 
 ### **<ins>Présentation du jeu de données</ins>**
 <p align="center">
