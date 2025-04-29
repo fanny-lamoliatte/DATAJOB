@@ -233,11 +233,11 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 ## <ins> RAPPORT POWER BI</ins> ##
 
-### **<ins>C’est avec plaisir que je vous transmettrai le rapport au format .pbix</ins>**
+#### **C’est avec plaisir que je vous transmettrai le rapport au format .pbix**
 
 ### **<ins>Présentation du jeu de données</ins>**
 <p align="center">
-   <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJOB/blob/main/REPORT_PBI/SCREENS_PBI/Pr%C3%A9sentation_datasets.PNG" /> 
+   <img align="center" width="85%" src="https://github.com/fanny-lamoliatte/DATAJB/blob/main/REPORT_PBI/SCREENS_PBI/Pr%C3%A9sentation_datasets.PNG" /> 
 </p>
 <br> 
 
