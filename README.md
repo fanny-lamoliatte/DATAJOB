@@ -233,7 +233,7 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 ## <ins> RAPPORT POWER BI</ins> ##
 
-#### **C’est avec plaisir que je vous transmettrai le rapport au format .pbix**
+**C’est avec plaisir que je vous transmettrai le rapport au format .pbix**
 
 ### **<ins>Présentation du jeu de données</ins>**
 <p align="center">
@@ -265,8 +265,8 @@ Lors du travail initial en groupe, notre modèle prédictif avait atteint une ac
 
 ## <ins> APPLICATION STREAMLIT </ins> ##
 
-Ce projet propose une application interactive dédiée à l'exploration, la visualisation et la prédiction de données professionnelles des acteurs du monde de la data science. 
-Elle permet une analyse en profondeur des rôles de chaque métier, de leurs outils ainsi que des compétences techniques nécessaires à chacun d’eux. 
+Ce projet propose une **application interactive** dédiée à l'**exploration, la visualisation et la prédiction** de **données professionnelles des acteurs du monde de la data science.** 
+Elle permet une **analyse en profondeur** des rôles de chaque métier, de leurs **outils** ainsi que des **compétences techniques nécessaires** à chacun d’eux. 
 
 Voici le lien de connection à mon application: http://170.39.216.234:8501
 <br> 
