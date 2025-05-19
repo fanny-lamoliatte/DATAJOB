@@ -439,6 +439,7 @@ if page == pages[ 0 ] :
     st.sidebar.subheader('Choix du modèle')
     model_select = st.sidebar.selectbox("Modèle choisi", model_name_list)
     metric_select= st.sidebar.selectbox('Métrique choisi',metric_choice)
+
 # Affichage titre choix du métrique 
     st.sidebar.subheader("Hyperparamètres du modèle")
     params = {}
@@ -468,76 +469,110 @@ if page == pages[ 0 ] :
         elif name == 'KNeighborsClassifier':
             return KNeighborsClassifier(n_neighbors=params['n_neighbors'],
                                         metric=params['metric'])
-# Créa f° de sauvegarde des modèles entrainés pour éviter le recalcul des résultats == gain de temps affichage
-    @st.cache_resource
-    def train_model(_model, X_train, y_train): 
-        _model.fit(X_train, y_train)
-        return _model
+# Créa f° de hachage des hyperparams (pour bien personnaliser les retours de résultats, sinon résults tjrs les mms)
+    import hashlib
+    def get_model_filename(model_name, params):
+        os.makedirs("models", exist_ok=True)
+        param_str = str(sorted(params.items()))
+        hash_str = hashlib.md5(param_str.encode()).hexdigest()
+        return f"models/{model_name}_{hash_str}.joblib"
+    def load_or_train_model(model_name, params, X_train, y_train):
+        model_path = get_model_filename(model_name, params)
+        if os.path.exists(model_path):
+            model = joblib.load(model_path)
+        else:
+            model = create_model(model_name, params)
+            model.fit(X_train, y_train)
+            joblib.dump(model, model_path)
+        return model
+# Créa f° de sauvegarde des modèles dans un répertoire "models"  
+    def save_model(model, model_name, params):
+        os.makedirs("models", exist_ok=True)
+        param_str = str(sorted(params.items()))
+        hash_str = hashlib.md5(param_str.encode()).hexdigest()
+        joblib.dump(model, f"models/{model_name}_{hash_str}.joblib", compress=3)
+# Créa f° de sauvegarde des matrices de confusion dans un répertoire "images"  
+    def save_matrix(y_true, y_pred, model_name, params, class_names):
+        os.makedirs("images", exist_ok=True)
+        param_str = str(sorted(params.items()))
+        hash_str = hashlib.md5(param_str.encode()).hexdigest()
+        cm = confusion_matrix(y_true, y_pred)
+        plt.figure(figsize=(8, 6))
+        sns.heatmap(cm, annot=True, fmt="d", cmap="Blues",
+                    xticklabels=class_names, yticklabels=class_names)
+        plt.title(f"Matrice de confusion - {model_name}")
+        plt.xlabel("Prédictions")
+        plt.ylabel("Réalité")
+        plt.tight_layout()
+        plt.savefig(f"images/{model_name}_{hash_str}_confusion_matrix.png")
+        plt.close()
+# Créa f° de sauvegarde des scores dans un répertoire "scores"  
+    def save_scores(scores, model_name, params, folder="metrics"):
+        os.makedirs(folder, exist_ok=True)
+        param_str = str(sorted(params.items()))
+        hash_str = hashlib.md5(param_str.encode()).hexdigest()
+        file_path = os.path.join(folder, f"{model_name}_{hash_str}_scores.joblib")
+        joblib.dump(scores, file_path)
+        print(f"Scores sauvegardés dans : {file_path}")
 # Entraînement du modele lorsque bouton est cliqué
     if st.sidebar.button("Entraîner le modèle"):
         with st.spinner("Modèle en cours d'entraînement..."):
-            model = train_model(create_model(model_select, params), X_train, y_train)
+            model = load_or_train_model(model_select, params, X_train, y_train)
             y_pred = model.predict(X_test)
-            # Sauvegarde du modèle
-            os.makedirs("models", exist_ok=True)
-            joblib.dump(model, f"models/{model_select}.joblib",compress=3)
-            # Sauvegarde matrice 
-            def save_matrix(y_true, y_pred, model_name):
-                cm = confusion_matrix(y_true, y_pred)
-                plt.figure(figsize=(8, 6))
-                sns.heatmap(cm, annot=True, fmt="d", cmap="Blues",
-                            xticklabels=class_names, yticklabels=class_names)
-                plt.title(f"Matrice de confusion - {model_name}")
-                plt.xlabel("Prédictions")
-                plt.ylabel("Réalité")
-                plt.tight_layout()
-                os.makedirs("images", exist_ok=True)
-                plt.savefig(f"images/{model_name}_confusion_matrix.png")
-                plt.close()
-            save_matrix(y_test, y_pred, model_select)
-            # Affichage des métriques
-            if metric_select == 'Accuracy':
-                accuracy = accuracy_score(y_test, y_pred)
-                st.write("**ACCURACY** = Mesure de l'exactitude globale des prédictions d'un modèle en calculant le rapport entre les échantillons correctement classés et le nombre total d'échantillons.")
-                st.markdown(f"""
-                            <h2 style='text-align: left; color: green; font-size: 25px;'>
-                            {accuracy:.4f}
-                         </h2>""", unsafe_allow_html=True)
-            elif metric_select == 'Matrice de confusion':
-                st.subheader(" _Matrice de confusion_")
-                st.write("La matrice de confusion est un outil de mesure de la performance des modèles de classification. Elle résume ici de manière graphique les valeurs absolues des données prédictives et réelles")
-                st.write(" ")
-                st.write(" ")              
-                cm = confusion_matrix(y_test, y_pred)
-                fig, ax = plt.subplots(figsize=(5, 3))
-                sns.heatmap(cm, annot=True, fmt="d", cmap="Blues",
-                            xticklabels=class_names, yticklabels=class_names,
-                            annot_kws={"fontsize": 8})
-                ax.tick_params(axis='both', labelsize=5) 
-                plt.xlabel("Prédiction",color="red",fontsize=10)
-                plt.ylabel("Réalité",color="red",fontsize=10)
-                st.pyplot(fig)
-            elif metric_select == 'Rapport de classification':
-                st.subheader("_Rapport de classification_")
-                st.write(" ")
-                st.write(" ")  
-                st.markdown("""
+# Sauvegarde des modèles
+            save_model(model, model_select, params)
+            save_matrix(y_test, y_pred, model_select, params, class_names)
+# Calcul des scores           
+            scores = {
+                "Accuracy": accuracy_score(y_test, y_pred),
+                "Classification report": classification_report(y_test, y_pred, target_names=class_names, output_dict=True),
+                "Confusion matrix": confusion_matrix(y_test, y_pred)}
+# Sauvegarde des scores             
+            save_scores(scores, model_select, params)
+# Affichage dynamique selon la métrique choisie
+        if metric_select == 'Accuracy':
+            accuracy = scores['Accuracy']
+            st.write("**ACCURACY** = Mesure de l'exactitude globale des prédictions d'un modèle en calculant le rapport entre les échantillons correctement classés et le nombre total d'échantillons.")
+            st.markdown(f"""
+                <h2 style='text-align: left; color: green; font-size: 25px;'>
+                {accuracy:.4f}
+                </h2>""", unsafe_allow_html=True)
+        elif metric_select == 'Matrice de confusion':
+            st.subheader("_Matrice de confusion_")
+            st.write("La matrice de confusion est un outil de mesure de la performance des modèles de classification. Elle résume ici de manière graphique les valeurs absolues des données prédictives et réelles")
+            st.write(" ")
+            st.write(" ")   
+            cm = scores["Confusion matrix"]
+            fig, ax = plt.subplots(figsize=(5, 3))
+            sns.heatmap(cm, annot=True, fmt="d", cmap="Blues",
+                        xticklabels=class_names, yticklabels=class_names,
+                        annot_kws={"fontsize": 8})
+            ax.tick_params(axis='both', labelsize=5)
+            plt.xlabel("Prédiction", color="red", fontsize=10)
+            plt.ylabel("Réalité", color="red", fontsize=10)
+            st.pyplot(fig)
+        elif metric_select == 'Rapport de classification':
+            st.subheader("_Rapport de classification_")
+            st.write(" ")
+            st.write(" ")  
+            st.markdown("""
                 Le **rapport de classification** est un outil utilisé dans l'apprentissage automatique pour évaluer les performances d'un modèle de classification.  
                 Il présente les métriques suivantes pour chaque classe :
                 - **Recall** : Taux de vrais positifs (sensibilité)
                 - **Precision** : Précision des prédictions positives
                 - **F1-score** : Moyenne harmonique de la précision et du rappel
                 - **Support** : Nombre réel d'échantillons par classe""")
-                st.write(" ") 
-                st.write(" ")     
-                st.write(" ")                    
-                # Transfo du rapport en df
-                report_dict = classification_report(y_test, y_pred, target_names=class_names, output_dict=True)
-                df_report = pd.DataFrame(report_dict).transpose()
-                # Que lignes des classes et accuracy
-                rows_to_keep = list(class_names) + ['accuracy']
-                df_report_filtered = df_report[df_report.index.isin(rows_to_keep)]
-                st.dataframe(df_report_filtered[['precision', 'recall', 'f1-score', 'support']])
+            st.write(" ") 
+            st.write(" ")     
+            st.write(" ")    
+# Transfo du rapport de classification en df
+            report_dict = scores["Classification report"]
+            df_report = pd.DataFrame(report_dict).transpose()
+# Ne concerver que lignes des classes et accuracy et affichage          
+            rows_to_keep = list(class_names) + ['accuracy']
+            df_report_filtered = df_report[df_report.index.isin(rows_to_keep)]
+            st.dataframe(df_report_filtered[['precision', 'recall', 'f1-score', 'support']])
+
 ```
 
 <p align="center">
