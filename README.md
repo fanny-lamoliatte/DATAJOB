@@ -601,7 +601,7 @@ Notons aussi que le **monde de la data est en perpétuel mouvement.**
 
 Afin de répondre aux demandes "clients" de plus en plus spécifiques, dans un but de ***simplification et valorisation des performances***, de nombreux ***outils, méthodes sont conçus et mis régulièrement à la disposition des codeurs, développeurs.***
 
-D’où une faculté nécessaire des acteurs de la Data à l’***adaptation ainsi à la formation en continue.***
+D’où une faculté nécessaire des acteurs de la Data à l’***adaptation ainsi qu'à la formation en continue.***
 <br>
 <br>
 
